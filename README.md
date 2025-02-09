@@ -42,21 +42,20 @@ A Streamlit application that converts spoken descriptions into images using Goog
 git clone https://github.com/kakarlapudiakhilvarma1/Speech-to-Image-Generation-using-Vertex-AI.git
 cd Speech-to-Image-Generation-using-Vertex-AI
 ```
+2. Create virtual environment using conda
+```bash
+conda create -p myenv python==3.10 -y
+conda activate myenv/
+```
 
-2. Install required packages:
+3. Install required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Initializing the gcloud CLI:
+4. Authorize & Initializing the gcloud CLI to use Vertex AI Services:
 ```bash
 https://cloud.google.com/sdk/docs/initializing
-```
-
-4. Update the configuration in the code:
-```python
-PROJECT_ID = "your-project-id"
-LOCATION = "your-preferred-location"
 ```
 
 ## Usage
