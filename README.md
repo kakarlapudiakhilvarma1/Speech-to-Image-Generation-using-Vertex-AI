@@ -43,11 +43,15 @@ speech-to-image-generator/
 1. Clone the repository:
 ```bash
 git clone https://github.com/kakarlapudiakhilvarma1/Speech-to-Image-Generation-using-Vertex-AI.git
+```
+```bash
 cd Speech-to-Image-Generation-using-Vertex-AI
 ```
 2. Create virtual environment using conda
 ```bash
 conda create -p myenv python==3.10 -y
+```
+```bash
 conda activate myenv/
 ```
 
