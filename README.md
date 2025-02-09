@@ -10,21 +10,24 @@ A Streamlit application that converts spoken descriptions into images using Goog
 - 📥 Download Options: Save generated images locally
 - 🎯 User-Friendly Interface: Clean and intuitive design with step-by-step guidance
 
-## Screenshots
+## Project Structure
 
-#### Initial Interface
-![image](https://github.com/user-attachments/assets/10c59691-21ea-43e5-af1b-3651c6720145)
+```
+speech-to-image-generator/
+│
+├── app.py                  # Main application file
+├── requirements.txt        # Project dependencies
+├── README.md              # Project documentation
+└── generated_images/      # Directory for storing generated images
+```
 
-#### Recording and Transcription Process
-![image](https://github.com/user-attachments/assets/c1d494bd-ea3c-42ea-ba5e-758119966557)
+## Dependencies
 
-#### After Transcription
-![image](https://github.com/user-attachments/assets/dde7e165-1184-4799-bd03-62a9f1325eb9)
----
-![image](https://github.com/user-attachments/assets/43115477-e62c-4ca6-b875-e0ab98c5612c)
-
-#### Finally after Image Generation
-![image](https://github.com/user-attachments/assets/9b6626d8-218c-4cd2-ade1-ca8e35782300)
+- streamlit
+- google-cloud-speech
+- vertexai
+- python-uuid
+- datetime
 
 ## Prerequisites
 
@@ -73,24 +76,21 @@ streamlit run app.py
    - Generate the image
    - Download the result if desired
 
-## Project Structure
+## Screenshots
 
-```
-speech-to-image-generator/
-│
-├── app.py                  # Main application file
-├── requirements.txt        # Project dependencies
-├── README.md              # Project documentation
-└── generated_images/      # Directory for storing generated images
-```
+#### Initial Interface
+![image](https://github.com/user-attachments/assets/10c59691-21ea-43e5-af1b-3651c6720145)
 
-## Dependencies
+#### Recording and Transcription Process
+![image](https://github.com/user-attachments/assets/c1d494bd-ea3c-42ea-ba5e-758119966557)
 
-- streamlit
-- google-cloud-speech
-- vertexai
-- python-uuid
-- datetime
+#### After Transcription
+![image](https://github.com/user-attachments/assets/dde7e165-1184-4799-bd03-62a9f1325eb9)
+---
+![image](https://github.com/user-attachments/assets/43115477-e62c-4ca6-b875-e0ab98c5612c)
+
+#### Finally after Image Generation
+![image](https://github.com/user-attachments/assets/9b6626d8-218c-4cd2-ade1-ca8e35782300)
 
 ## License
 
